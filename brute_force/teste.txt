@@ -1,0 +1,55 @@
+4 5 (Tamanho da matriz)
+0 0 0 0 D
+0 A 0 0 0
+0 0 0 0 C
+R 0 B 0 0
+    
+    Entrada no programa (5-6 Pontos)
+    D 1 0
+    A 2 2
+    C 3 0
+    R 4 0
+    B 4 3
+    F 4 4
+
+5 6 
+0 0 0 0 0 0
+0 0 0 0 0 0
+0 0 0 0 0 0
+0 0 0 0 0 0
+0 0 0 0 0 0
+
+    Entrada no programa (8-9 pontos)
+    A 1 4
+    B 2 0
+    C 3 3
+    D 4 2
+    E 4 1
+    F 1 2
+    G 3 4
+    H 4 4
+    R 5 5
+
+Resultado: 
+
+6 7
+0 0 0 0 0 0 0
+0 0 0 0 0 0 0
+0 0 0 0 0 0 0
+0 0 0 0 0 0 0
+0 0 0 0 0 0 0
+0 0 0 0 0 0 0
+
+    Entrada no programa (10-12 pontos)
+    A 1 2
+    B 3 2
+    C 1 4
+    D 5 6
+    E 6 1
+    F 2 0
+    J 4 5
+    H 6 6
+    I 4 4
+    R 5 0
+
+Resultado 12: Fez meu PC virar uma torradeira, dica: Não tente 12 termos.
