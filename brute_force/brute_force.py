@@ -28,6 +28,7 @@ def melhor_caminho(comb, coords, empty):
             y = coords[j][2]
             temp = temp + (abs(a-b) + abs(x-y))
             i = j = 0
+            
         if(short_route == 0):
             empty = comb[c]
             short_route = temp
@@ -35,7 +36,7 @@ def melhor_caminho(comb, coords, empty):
             short_route = temp
             empty = comb[c]
         temp = 0
-    print(empty, len(comb))
+    print(empty, comb, len(comb), short_route)
 
 # Função para gerar permutações
 def permutacoes(lista, r = None):
