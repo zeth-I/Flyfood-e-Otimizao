@@ -196,6 +196,7 @@ def algoritmo_genetico(populacao, tamanho_popu_inicial, tam_elitismo, taxa_mutac
     distancia_melhor_rota = [1 / rank_rotas(pop)[0][1]]
     media = [media_distancia_rotas(pop)]
     print(f'População inicial, Distância Inicial: {str(distancia_melhor_rota[0])}, Média: {float(media[0])}')
+    #print(f'População inicial, Distância Inicial: {str(distancia_melhor_rota[0])}, Média: {math.cos(media[0])}')
 
     for i in range(1, numero_geracoes + 1):
 
