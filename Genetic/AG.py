@@ -163,13 +163,13 @@ def cross_over_popu(mating_pool, tam_elitismo):
 def mutar(individuo, taxa_mutacao):
     for trocado in range(len(individuo)):
         if (random.random() < taxa_mutacao):
-            trocarCom = int(random.random() * len(individuo))
+            trocar_com = int(random.random() * len(individuo))
 
             Cidade1 = individuo[trocado]
-            Cidade2 = individuo[trocarCom]
+            Cidade2 = individuo[trocar_com]
 
             individuo[trocado] = Cidade2
-            individuo[trocarCom] = Cidade1
+            individuo[trocar_com] = Cidade1
     return individuo
 
 # Aplicando a mutação em toda a população
@@ -191,7 +191,7 @@ def proxima_geracao(gene_atual, tam_elitismo, taxa_mutacao):
     proxima_geracao = mutar_popu(filhos, taxa_mutacao)
     return proxima_geracao
 
-def algoritmoGenetico(populacao, tamanho_popu_inicial, tam_elitismo, taxa_mutacao, numero_geracoes):
+def algoritmo_genetico(populacao, tamanho_popu_inicial, tam_elitismo, taxa_mutacao, numero_geracoes):
     pop = populacao_inicial(tamanho_popu_inicial, populacao)
     distancia_melhor_rota = [1 / rank_rotas(pop)[0][1]]
     media = [media_distancia_rotas(pop)]
@@ -214,7 +214,7 @@ for i in range(0, numero_de_pontos):
     nome_dos_pontos.append(str(cidade[0]))
     lista_de_cidades.append(Cidade(str(cidade[0]), int(cidade[1]), int(cidade[2])))
 
-melhor_rota = algoritmoGenetico(
+melhor_rota = algoritmo_genetico(
 populacao = lista_de_cidades, 
 tamanho_popu_inicial=tamanho_da_pop_inicial, 
 tam_elitismo=tamanho_do_elitismo, 
