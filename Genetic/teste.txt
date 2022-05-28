@@ -48,7 +48,7 @@ J 5 0
 K 7 1
 L 9 5
 
-numero_de_pontos = 30
+numero_de_pontos = 29
 
 A 1 2
 B 3 2
@@ -79,4 +79,3 @@ Z 2 9
 Zw 4 8
 Zx 4 9
 Zy 8 4
-Zz 9 9

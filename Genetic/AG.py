@@ -11,8 +11,8 @@ lista_cidades = []
 nome_dos_pontos = []
 
 #Variáveis
-numero_de_pontos = 30
-tamanho_da_pop_inicial = 50
+numero_de_pontos = 29
+tamanho_da_pop_inicial = 100
 tamanho_do_elitismo = 2
 taxa_de_mutacao = 0.05
 numero_de_geracoes = 30
